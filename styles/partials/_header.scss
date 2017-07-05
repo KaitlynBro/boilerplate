@@ -1,0 +1,40 @@
+header {
+	background-color: #87509c;
+}
+
+.headerContent {
+	padding-bottom: 145px;
+	transform: translateX(20%);
+}
+
+.headerNav {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 57px;
+	ul {
+		list-style-type: none;
+	}
+}
+
+.headerNav2 {
+	display: flex;
+	padding: 0;
+    margin-left: 500px;
+    li {
+    	margin-right: 45px;
+    	font-style: 16px;
+    	text-transform: uppercase;
+    }
+    a {
+    	text-decoration: none;
+    	color: #ffffff;
+    	font-weight: 400;
+
+    }
+}
+
+.headerButton {
+	background-color:  #eb7d4b;
+}

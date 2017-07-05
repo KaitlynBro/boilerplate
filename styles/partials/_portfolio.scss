@@ -1,0 +1,72 @@
+.portfolio {
+	background-color: #ffdd99;
+	padding-bottom: 109px;
+	.headerInfo {
+		margin-bottom: 42px;
+	}
+	h2, p, a {
+		color: #393939;
+	}
+	p {
+		font-size: 18px;
+	}
+}
+
+.portfolio nav {
+	display: flex;
+	justify-content: center;
+	button {
+		width: 84px;
+		height: 38px;
+		border-radius: 4px;
+		background-color: rgba(0, 0, 0, 0.08);
+		border-color: transparent;
+		margin-right: 10px;
+	}
+	ul {
+		display: flex;
+		list-style-type: none;
+		max-width: 25%;
+		padding: 0;
+	}
+	a {
+		text-transform: uppercase;
+		font-size: 18px;
+		text-decoration: none;
+	}
+}
+
+.portfolio nav button:hover {
+	background-color: #ffffff;
+}
+
+.portfolioSection {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.portfolios {
+	margin-right: 20px;
+	p {
+		font-size: 18px;
+		text-transform: uppercase;
+		color: #393939;
+	}
+}
+
+.portfolioLine1 {
+	margin-bottom: 65px;
+}
+
+.portfolioLine2 {
+	margin-bottom: 83px;
+}
+
+.projectsButton {
+	background-color: #17c2a4;
+	margin-bottom: 109px;
+}
+
+
