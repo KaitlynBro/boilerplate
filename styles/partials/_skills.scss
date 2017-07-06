@@ -1,57 +1,56 @@
-.skills {
+.skillsSection {
 	background-color: #ffffff;
 	padding-bottom: 122px;
-	h2, .skillsInfo {
+	h2, .h2Text, .percentage, .skillTitle {
 		color: #3c4761;
 	}
-}
+} 
 
-.skillsStats {
+.skillsDiv {
 	display: flex;
-	flex-wrap: nowrap;
 	justify-content: center;
 }
 
-.statVisual h3 {
-	text-align: center;
-    text-transform: uppercase;
-    color: #3c4761;
-    font-size: 24px;
-    letter-spacing: 2px;
-    white-space: nowrap;
-}
-
-.statVisual {
-	line-height: 1;
-}
-
-.statVisual1, .statVisual2, .statVisual3 {
+.skillContainer:not(:last-of-type) {
 	margin-right: 120px;
+	margin-left: 0;
 }
 
-.statVisual1 {
-	margin-left: 220px;
-}
-
-.statVisual4 {
-	margin-right: 220px;
-}
-
-
-.skillsImage {
+.skillVisual {
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 160px;
+	height: 160px;
 	z-index: -1;
-	transform: translateY(-50%);
+}
+
+.skillVisual1 {
+	background-image: url('../../assets/progressBlue.png');
+}
+
+.skillVisual2 {
+	background-image: url('../../assets/progressPink.png');
+}
+
+.skillVisual3 {
+	background-image: url('../../assets/progressGreen.png');
+}
+
+.skillVisual4 {
+	background-image: url('../../assets/progressOrange.png');
 }
 
 .percentage {
 	text-align: center;
-    position: relative;
-    top: 24%;
-    left: 4%;
-    transform: translateY(-50%);
-    font-size: 50px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 50px;
 }
 
-.percentage70 {
-	left: -8%;
+.skillTitle {
+	font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }

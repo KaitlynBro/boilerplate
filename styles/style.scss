@@ -11,78 +11,54 @@
 //general styles
 
 body {
-	max-width: 100%;
 	margin: 0 auto;
+	max-width: 100%;
 	font-family: 'Titillium Web', sans-serif;
 }
 
-.wrapper {
-	max-width: 1031px;
-	margin: 0 auto;
-}
 
-h1 {
-	font-size: 42.16px;
-	color: #f7f3eb; 
-	margin-top: 156px;
-	text-align: center;
-	letter-spacing: 2px;
-	font-weight: 700;
-}
-
-//styles for all h2's and lorem on page
-
+//all h2's and lorem directly underneath
 h2 {
 	font-size: 40px;
-	color: #ffffff;
-	text-align: center;
-	padding-top: 120px;
+	font-weight: 700;
+	margin-bottom: 48px;
 	margin-top: 0;
 	padding-top: 119px;
-	margin-bottom: 47px;
-	letter-spacing: 7px;
 	text-transform: uppercase;
-	font-weight: 700;
 }
 
 h2:after {
 	display: block;
-    content: '';
-    position: absolute;
-    left: 47%;
-    background-color: rgba(31, 31, 31, 0.3);
-    width: 87px;
-    height: 4px;
-    margin-bottom: 23px;
-    margin-top: 21px;
-
-
+	content: '';
+	position: absolute;
+	margin-top: 21px;
+	margin-bottom: 23px;
+	left: 47%;
+	background-color: rgba(0, 0, 0, 0.15);
+	width: 87px;
+	height: 4px;
 }
 
-.headerInfo {
+
+.h2Text {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+h2, .h2Text {
 	color: #ffffff;
-    font-size: 18px;
-    text-align: center;
-    margin-bottom: 79px;
+	text-align: center;
 }
 
-//styles for all buttons on page 
-.primaryButton {
-	border-radius: 4px;
+//general styles of all larger buttons
+
+.buttonGeneral {
 	width: 293px;
 	height: 70px;
-    border: none;
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 18px;
-    letter-spacing: 1px;
-}
-
-.primaryButton:hover {
-	transform: translateY(-5px);
-	box-shadow: 2px 2px 2px slategrey;
+	border: none;
+	border-radius: 4px;
+	color: #ffffff;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
 }

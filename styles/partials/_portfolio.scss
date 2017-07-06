@@ -1,72 +1,55 @@
-.portfolio {
+.portfolioSection {
 	background-color: #ffdd99;
-	padding-bottom: 109px;
-	.headerInfo {
-		margin-bottom: 42px;
-	}
-	h2, p, a {
-		color: #393939;
-	}
-	p {
-		font-size: 18px;
-	}
+} 
+
+.portfolioSection h2, .portfolioSection .h2Text, .portfolioSection h3 {
+	color: #393939;
 }
 
-.portfolio nav {
+.portfolioNav {
 	display: flex;
+	padding: 0;
+	list-style-type: none;
 	justify-content: center;
+	margin-top: 42px;
+	margin-bottom: 65px;
+	li {
+		text-transform: uppercase;	
+	}
 	button {
+		border: none;
+		background-color: rgba(0, 0, 0, 0.08);
 		width: 84px;
 		height: 38px;
 		border-radius: 4px;
-		background-color: rgba(0, 0, 0, 0.08);
-		border-color: transparent;
-		margin-right: 10px;
-	}
-	ul {
-		display: flex;
-		list-style-type: none;
-		max-width: 25%;
-		padding: 0;
-	}
-	a {
-		text-transform: uppercase;
-		font-size: 18px;
-		text-decoration: none;
 	}
 }
 
-.portfolio nav button:hover {
+.portfolioNav button:hover {
 	background-color: #ffffff;
 }
 
-.portfolioSection {
+.portfolioNav button:not(:last-of-type) {
+	margin-right: 10px;
+}
+
+.portfolioDiv {
 	display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 65px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    h3 {
+    	text-transform: uppercase;
+    	font-size: 18px;
+    	font-weight: 400;
+    	text-align: center;
+    }
 }
 
-.portfolios {
+.portfolio {
+	margin-bottom: 64px;
+}
+
+.portfolioLeft {
 	margin-right: 20px;
-	p {
-		font-size: 18px;
-		text-transform: uppercase;
-		color: #393939;
-	}
 }
-
-.portfolioLine1 {
-	margin-bottom: 65px;
-}
-
-.portfolioLine2 {
-	margin-bottom: 83px;
-}
-
-.projectsButton {
-	background-color: #17c2a4;
-	margin-bottom: 109px;
-}
-
-

@@ -1,40 +1,55 @@
 header {
 	background-color: #87509c;
+} 
+
+header nav {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 14.7%;
+    margin-right: 13.5%;
+    padding-top: 57px;
+    ul {
+    	padding: 0;
+    	list-style-type: none;
+    }
+}
+
+header nav ul li:hover {
+	background-color: #643a79;
+	padding: 8px 15px;
+	border-radius: 4px;
+}
+
+header nav ul li:not(:last-of-type) {
+	margin-right: 43px;
+}
+
+.secondaryNav {
+	display: flex;
+	font-size: 16px;
+	color: #ffffff;
+	text-transform: uppercase;
 }
 
 .headerContent {
-	padding-bottom: 145px;
-	transform: translateX(20%);
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 145px;
 }
 
-.headerNav {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: space-around;
-	padding-top: 57px;
-	ul {
-		list-style-type: none;
-	}
-}
-
-.headerNav2 {
-	display: flex;
-	padding: 0;
-    margin-left: 500px;
-    li {
-    	margin-right: 45px;
-    	font-style: 16px;
-    	text-transform: uppercase;
-    }
-    a {
-    	text-decoration: none;
-    	color: #ffffff;
-    	font-weight: 400;
-
-    }
+h1 {
+	color: #f7f3eb;
+    font-size: 42.16px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 145px;
+    width: 62.9%;
+    padding-bottom: 54px;
 }
 
 .headerButton {
-	background-color:  #eb7d4b;
+	background-color: #eb7d4b;
 }
