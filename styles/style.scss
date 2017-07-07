@@ -43,6 +43,7 @@ h2:after {
 .h2Text {
 	font-size: 18px;
 	font-weight: 400;
+	padding: 0 15px;
 }
 
 h2, .h2Text {
@@ -62,3 +63,73 @@ h2, .h2Text {
 	text-transform: uppercase;
 	font-weight: 600;
 }
+
+//media queries begins
+
+@media (max-width: 1250px) {
+  .servicesDiv {
+  	flex-direction: column;
+  	align-items: center;
+  }
+  .service {
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-bottom: 128px;
+    width: 50%;
+    margin-right: 0;
+  }
+  .serviceImage {
+  	    width: 100%;
+  	    transform: translateX(50%);
+  }
+
+  .serviceText {
+  	width: 100%;
+  }
+  //team members section
+  .teamDiv {
+  	flex-direction: column;
+    align-items: center;
+  }
+  .teamMember {
+  	margin: 20px;
+  	width: 100%;
+  }
+  .teamPhoto {
+  	display: flex;
+    justify-content: center;
+  }
+  //skills section
+  .skillsDiv {
+  	    flex-direction: column;
+    	align-items: center;
+  }
+  .skillContainer:not(:last-of-type) {
+  	margin: 0;
+  }
+}
+
+@media (max-width: 900px) {
+	.portfolio img {
+		width: 450px;
+	}
+	.formNameEmail {
+		display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	}
+	.formMessage textarea {
+		width: 414px;
+	}
+	.footerNav {
+		visibility: hidden;
+	}
+}
+
+
+
+
+
+
+
